@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/styles.css">
+
+  <title>Frontend Mentor | Results summary component</title>
+
+</head>
+
+<body>
+  <main>
+    <article class="score">
+
+      <div class="result">
+        <h1 class="result__title">Your Result</h1>
+        <div class="result__score">
+          <p class="result__score-big">76</p>
+          <p class="result__score-small">of 100</p>
+        </div>
+        <div class="result__message">
+          <p class="result__message-title">Great</p>
+          <p class="result__message-desc">You scored higher than 65% of the people who have taken these tests.</p>
+        </div>
+      </div>
+
+      <div class="summary">
+        <h1 class="summary__title">Summary</h1>
+        <div class="summary__list">
+          <!-- reaction -->
+          <div class="summary__list-item reaction">
+            <p>Reaction</p>
+            <div class="summary__list-item-score">
+              <span class="current-score">80</span><span class="max-score">/ 100</span>
+            </div>
+          </div>
+          <!-- memory -->
+          <div class="summary__list-item memory">
+            <p>Memory</p>
+            <div class="summary__list-item-score">
+              <span class="current-score">92</span><span class="max-score">/ 100</span>
+            </div>
+          </div>
+          <!-- verbal -->
+          <div class="summary__list-item verbal">
+            <p>Verbal</p>
+            <div class="summary__list-item-score">
+              <span class="current-score">61</span><span class="max-score">/ 100</span>
+            </div>
+          </div>
+          <!-- visual -->
+          <div class="summary__list-item visual">
+            <p>Visual</p>
+            <div class="summary__list-item-score">
+              <span class="current-score">72</span><span class="max-score">/ 100</span>
+            </div>
+          </div>
+        </div>
+        <button class="button"><span class="button__inner">Continue</span></button>
+      </div>
+
+    </article>
+  </main>
+</body>
+
+</html>
